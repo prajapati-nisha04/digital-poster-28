@@ -1,0 +1,113 @@
+    /* Reset some default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #f2f2f2;
+        color: #333;
+    }
+    
+    /* Main poster container */
+    .poster {
+        background-color: #ffffff;
+        border: 2px solid #333;
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 500px;
+        text-align: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Header styling */
+    header h1 {
+        font-size: 2em;
+        color: #0056b3;
+        margin-bottom: 10px;
+    }
+    
+    header p {
+        font-size: 1.1em;
+        color: #666;
+    }
+    
+    /* Event details styling */
+    .event-details {
+        margin: 20px 0;
+        font-size: 1.1em;
+    }
+    
+    .event-details h2 {
+        color: #333;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    
+    /* Highlights styling */
+    .highlights {
+        margin-top: 20px;
+        font-size: 1.1em;
+    }
+    
+    .highlights h2 {
+        font-size: 1.5em;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .highlights ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .highlights li {
+        background-color: #66b5f6;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    
+    /* Footer styling */
+    footer {
+        margin-top: 20px;
+    }
+    
+    footer p {
+        font-size: 0.9em;
+        color: #333;
+    }
+    
+    footer a {
+        color: #0056b3;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Responsive styling */
+    @media (max-width: 600px) {
+        .poster {
+            padding: 15px;
+            max-width: 90%;
+        }
+    
+        header h1 {
+            font-size: 1.8em;
+        }
+    
+        .event-details h2,
+        .highlights h2 {
+            font-size: 1.3em;
+        }
+    }
+    
